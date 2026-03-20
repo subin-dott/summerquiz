@@ -282,7 +282,7 @@ export default function App() {
               letterSpacing: "2px",
               marginBottom: "10px",
             }}>
-              for. 오늘도 동그라미를 쓰다듬는 횽님에게
+              for. 오늘도 동그라미를 쓰다듬는 횽님께
             </p>
 
             <h1 style={{
