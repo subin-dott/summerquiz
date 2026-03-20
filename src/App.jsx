@@ -25,17 +25,17 @@ const QUESTIONS = [
     ],
   },
   {
-    id: 4, q: "공연 전까지 뭐하지?", emoji: "🎭",
+    id: 4, q: "공연 전까지 뭘 할까?", emoji: "🎭",
     options: [
       { text: "캐보 찍어 트위터에 올리기 🤳✨", type: "jjurang" },
-      { text: "최강 한화 응원가 듣기 🎧", type: "gamseong" },
+      { text: "최강한화 응원가 듣기 ⚾️✨", type: "gamseong" },
     ],
   },
   {
-    id: 5, q: "지우가 무대에서 노래를 부른다. 나는?", emoji: "🎤",
+    id: 5, q: "밸런스 게임을 해보자!", emoji: "🎤",
     options: [
-      { text: "숨도 못 쉬고 눈을 못 뗀다 — 완전 고정 👁️✨", type: "jjurang" },
-      { text: "어느새 눈물이 차오르고 있다 🥲💧", type: "gamseong" },
+      { text: "최애 착장인데 분량 30분 💦", type: "gamseong" },
+      { text: "밤티 착장이지만 120분 내내 무대에 존재 🧩", type: "jjurang" },
     ],
   },
   {
@@ -46,17 +46,17 @@ const QUESTIONS = [
     ],
   },
   {
-    id: 7, q: "잠들기 전 인스타 알림이 왔다! 어떤 알림일까?", emoji: "🌙",
+    id: 7, q: "인스타 알림이 왔다! 어떤 알림일까?", emoji: "🔔",
     options: [
-      { text: "동그라미의 바보 안경 셀카", type: "jjurang" },
+      { text: "동그라미의 바보 안경 셀카 🤓", type: "jjurang" },
       { text: "천재 포스너의 마테 영상 🎶", type: "gamseong" },
     ],
   },
   {
-    id: 8, q: "나의 최애 지우 필모는?", emoji: "⭐",
+    id: 8, q: "마지막 질문! 최애 지우 필모는?", emoji: "⭐",
     options: [
-      { text: "지우 조반니 🎵", type: "jjurang" },
-      { text: "지우 클로드 🌹", type: "gamseong" },
+      { text: "지우 조반니 🌌", type: "jjurang" },
+      { text: "지우 클로드 🕯️", type: "gamseong" },
       { text: "지우 포스너 📚", type: "jjurang" },
     ],
   },
@@ -71,10 +71,10 @@ const RESULTS = {
     colorLight: "#F4957F",
     bg: "#FFF5F3",
     border: "#FFD4CC",
-    desc: "지우가 웃으면 세상이 환해지는 #menow = 지우진짜좋아 상태! 언제나 한결같은 마음으로 아낌없이 칭찬해요 🫳🫳🫳 동그라미 최고! 💌",
+    desc: "지우가 웃으면 세상이 환해지는 # menow = 지우진짜좋아 상태! 언제나 한결같은 마음으로 아낌없이 칭찬해요 🫳🫳🫳 동그라미 최고! 💌",
     traits: [
-      { icon: "😭", text: "저 됐어요 ... 쮸랑단 됐어요 !!!" },
       { icon: "🏆", text: "세상에서 동그라미 가장 잘 쓰다듬는 사람 1위" },
+      { icon: "😭", text: "됐어요 ... 저 쮸랑단 됐어요 !!!" },
       { icon: "😻", text: "지우님 칭찬 무한 제공합니다 ♡" },
     ],
     giftTitle: "쮸랑단을 위한 선물 🎟️",
@@ -294,7 +294,7 @@ export default function App() {
               marginBottom: "14px",
             }}>
               나는 어떤<br />
-              <span style={{ color: "#E8624A" }}>지우 팬</span>일까? ✨
+              <span style={{ color: "#E8624A" }}>쮸랑단</span>일까? ✨
             </h1>
 
             <p style={{
@@ -614,7 +614,7 @@ export default function App() {
                   </a>
 
                   <p style={{ fontSize: "12px", color: "#B09080", lineHeight: 1.9 }}>
-                    코드 복사해서 링크에서 등록하시면 됩니다 !! <br />
+                    코드 누르고 복사해서 등록하시면 됩니다 !! <br />
                     <span style={{ color: result.color, fontWeight: "700" }}>생일 미리 축하드려요😍</span>
                   </p>
                 </div>
