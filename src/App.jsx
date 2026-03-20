@@ -20,7 +20,7 @@ const QUESTIONS = [
   {
     id: 3, q: "대학로 도착! 이제 어디로 갈까?", emoji: "🗺️",
     options: [
-      { text: "카메라 챙겨서 링크아트센터 달려가기 📸🏃", type: "jjurang" },
+      { text: "카메라 챙겨서 링크아트센터로 달려가기 📸🏃", type: "jjurang" },
       { text: "Imbibe! 포쉬답게 음주하러 텐트가기 🥃😎", type: "gamseong" },
     ],
   },
@@ -71,7 +71,7 @@ const RESULTS = {
     colorLight: "#F4957F",
     bg: "#FFF5F3",
     border: "#FFD4CC",
-    desc: "지우가 웃으면 세상이 환해지는 # menow = 지우진짜좋아 상태! 언제나 한결같은 마음으로 아낌없이 칭찬해요 🫳🫳🫳 동그라미 최고! 💌",
+    desc: "지우가 웃으면 세상이 환해지는 # menow = 지우진짜좋아   상태! 언제나 한결같은 마음으로 아낌없이 칭찬해요 🫳🫳🫳 동그라미 최고! 💌",
     traits: [
       { icon: "🏆", text: "세상에서 동그라미 가장 잘 쓰다듬는 사람 1위" },
       { icon: "😭", text: "됐어요 ... 저 쮸랑단 됐어요 !!!" },
