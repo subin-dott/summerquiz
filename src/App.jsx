@@ -14,7 +14,7 @@ const QUESTIONS = [
     id: 2, q: "어떤 걸 타고 갈까?", emoji: "🚉",
     options: [
       { text: '"열차가 곧 출발하겠구만 그래~" 서둘러 기차를 탄다! 🚂', type: "jjurang" },
-      { text: '"나도 택시탈 자격 있어!" 용감하게 택시를 탄다! 🚕', type: "gamseong" },
+      { text: '"나도 택시탈 자격 있어!" 조반니 찬스로 택시를 탄다! 🚕', type: "gamseong" },
     ],
   },
   {
