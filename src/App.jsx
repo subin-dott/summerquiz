@@ -73,11 +73,11 @@ const RESULTS = {
     border: "#FFD4CC",
     desc: "지우가 웃으면 세상이 환해지는 #menow = 지우진짜좋아 상태! 언제나 한결같은 마음으로 아낌없이 칭찬해요 🫳🫳🫳 동그라미 최고! 💌",
     traits: [
-      { icon: "😭", text: "여러분 저 됐어요 ... 쮸랑단 됐어요 !!!" },
-      { icon: "📣", text: "세상에서 동그라미 가장 잘 쓰다듬는 사람 1위" },
-      { icon: "😻", text: "지우님 칭찬 무한 제공합니다" },
+      { icon: "😭", text: "저 됐어요 ... 쮸랑단 됐어요 !!!" },
+      { icon: "🏆", text: "세상에서 동그라미 가장 잘 쓰다듬는 사람 1위" },
+      { icon: "😻", text: "지우님 칭찬 무한 제공합니다 ♡" },
     ],
-    giftTitle: "안녕하세요~ 배우 정지우입니다. 🎟️",
+    giftTitle: "쮸랑단을 위한 선물 🎟️",
     giftCode: "HISTORY-JIWOO-2025",
     giftLink: "https://m.yes24.com/MyPage/Ticket",
   },
@@ -91,11 +91,11 @@ const RESULTS = {
     border: "#B8E0C8",
     desc: "복복복 열심히 동그라미를 굴려요!! (두쫀쮸 데굴데굴 🧆) 좋아하는 포인트가 확실하고 정확한 타입! 쮸얘 필리버스터 무한 제공합니다 💥",
     traits: [
+      { icon: "💌", text: "어떤 작품이라도 한결같이 아껴요" },
       { icon: "🚶‍♂️", text: "갈테야 갈테야 지우님 공연보러 갈테야" },
       { icon: "🫥", text: "지우 힘내 지우 밥많이먹어 지우 화이팅!!!" },
-      { icon: "💌", text: "어떤 작품이라도 한결같이 아껴요" },
     ],
-    giftTitle: "안녕하세요~ 배우 정지우입니다 🎟️",
+    giftTitle: "쮸랑단을 위한 선물 🎟️",
     giftCode: "HISTORY-JIWOO-2025",
     giftLink: "https://m.yes24.com/MyPage/Ticket",
   },
@@ -282,7 +282,7 @@ export default function App() {
               letterSpacing: "2px",
               marginBottom: "10px",
             }}>
-              for. 오늘도 동그라미를 쓰다듬는 당신에게
+              for. 오늘도 동그라미를 쓰다듬는 횽님에게
             </p>
 
             <h1 style={{
@@ -614,8 +614,8 @@ export default function App() {
                   </a>
 
                   <p style={{ fontSize: "12px", color: "#B09080", lineHeight: 1.9 }}>
-                    코드를 복사해서 링크에서 등록하면 돼요 🎀<br />
-                    <span style={{ color: result.color, fontWeight: "700" }}>생일 축하해요, 언니! 💕</span>
+                    코드 복사해서 링크에서 등록하시면 됩니다 !! <br />
+                    <span style={{ color: result.color, fontWeight: "700" }}>생일 미리 축하드려요😍</span>
                   </p>
                 </div>
               )}
