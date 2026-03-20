@@ -613,7 +613,7 @@ export default function App() {
                   </a>
 
                   <p style={{ fontSize: "12px", color: "#B09080", lineHeight: 1.9 }}>
-                    두 장이라 나눠서 등록하시면 되어요 !! <br />
+                    코드 두개 나눠서 등록하시면 되어요 !! <br />
                     <span style={{ color: result.color, fontWeight: "700" }}>생일 미리 축하드려요 횽님😍</span>
                   </p>
                 </div>
