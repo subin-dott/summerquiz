@@ -6,7 +6,7 @@ const QUESTIONS = [
   {
     id: 1, q: "오늘은 주말! 내가 가야 할 곳은?", emoji: "🌤️",
     options: [
-      { text: "셰필드 학생들의 첫 수업 🚌🎓", type: "jjurang" },
+      { text: "셰필드 학생들의 첫 수업! 🚌🎓", type: "jjurang" },
       { text: "침대에 눕는다 . . 🛌", type: "gamseong" },
     ],
   },
@@ -77,7 +77,7 @@ const RESULTS = {
       { icon: "🚶‍♂️", text: "갈테야 갈테야 지우님 공연보러 갈테야" },
       { icon: "🫥", text: "지우 힘내 지우 밥많이먹어 지우 화이팅!!!" },
     ],
-    giftTitle: "쮸랑단을 위한 선물 🎟️",
+    giftTitle: "연극 <히스토리 보이즈> 예매권 🎟️",
     giftCode: "HISTORY-JIWOO-2025",
     giftLink: "https://m.yes24.com/MyPage/Ticket",
   },
@@ -89,13 +89,13 @@ const RESULTS = {
     colorLight: "#78B897",
     bg: "#F3FAF5",
     border: "#B8E0C8",
-    desc: "복복복 열심히 동그라미를 굴려요!! (두쫀쮸 데굴데굴 🧆) 좋아하는 포인트가 확실하고 정확한 타입! 이 여성은 쮸얘 필리버스터 무한 제공합니다 💥",
+    desc: "복복복 열심히 동그라미를 굴려요!! (두쫀쮸 데굴데굴 🧆) 좋아하는 포인트가 확실하고 정확한 타입! 이 여성은 쮸얘 필리버스터를 무한 제공합니다 💥",
     traits: [
       { icon: "🏆", text: "지구에서 두쫀쮸 가장 잘 굴리는 사람 1위" },
       { icon: "😭", text: "동그라미를 사랑하는 낭만적인 로맨티스트" },
       { icon: "😻", text: "어떤 작품이라도 한결같이 아껴요 ♡" },
     ],
-    giftTitle: "쮸랑단을 위한 선물 🎟️",
+    giftTitle: "연극 <히스토리 보이즈> 예매권 🎫",
     giftCode: "HISTORY-JIWOO-2025",
     giftLink: "https://m.yes24.com/MyPage/Ticket",
   },
@@ -302,7 +302,7 @@ export default function App() {
               lineHeight: 2.1,
               marginBottom: "28px",
             }}>
-              8개의 질문으로 알아보는<br />나의 유형 💌
+              8개의 질문으로 알아보는<br />나의 애착 유형 💌
             </p>
 
             <button
