@@ -93,7 +93,7 @@ const RESULTS = {
     traits: [
       { icon: "🏆", text: "지구에서 두쫀쮸 가장 잘 굴리는 사람 1위" },
       { icon: "😭", text: "동그라미를 사랑하는 낭만적인 로맨티스트" },
-      { icon: "😻", text: "어떤 작품이라도 한결같이 아껴요 ♡" },
+      { icon: "😻", text: "어떤 작품이든 한결같이 아껴요 ♡" },
     ],
     giftTitle: "연극 <히스토리 보이즈> 예매권 🎫",
     giftCode: "HISTORY-JIWOO-2025",
