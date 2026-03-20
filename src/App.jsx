@@ -7,11 +7,11 @@ const QUESTIONS = [
     id: 1, q: "오늘은 주말! 내가 가야 할 곳은?", emoji: "🌤️",
     options: [
       { text: "셰필드 학생들의 첫 수업 🚌🎓", type: "jjurang" },
-      { text: "풀잎반 교실 🌱", type: "gamseong" },
+      { text: "침대에 눕는다 . . 🛌", type: "gamseong" },
     ],
   },
   {
-    id: 2, q: "뭘 타고 갈까?", emoji: "🚉",
+    id: 2, q: "어떤 걸 타고 갈까?", emoji: "🚉",
     options: [
       { text: '"열차가 곧 출발하겠구만 그래~" 기차를 탄다! 🚂', type: "jjurang" },
       { text: '"나도 택시탈 자격 있어!" 용감하게 택시를 탄다! 🚕', type: "gamseong" },
@@ -20,15 +20,15 @@ const QUESTIONS = [
   {
     id: 3, q: "대학로 도착! 이제 어디로 갈까?", emoji: "🗺️",
     options: [
-      { text: "카메라 챙겨서 링크아트센터 가기 📸🏃", type: "jjurang" },
+      { text: "카메라 챙겨서 링크아트센터 달려가기 📸🏃", type: "jjurang" },
       { text: "Imbibe! 포쉬답게 음주하러 텐트가기 🥃", type: "gamseong" },
     ],
   },
   {
-    id: 4, q: "공연 직전! 두근거리는 마음을 달래려면?", emoji: "🎭",
+    id: 4, q: "공연 전까지 뭐하지?", emoji: "🎭",
     options: [
-      { text: "포토존에서 인증샷 찍으며 흥 올리기 🤳✨", type: "jjurang" },
-      { text: "귀에 이어폰 꽂고 OST 예습하기 🎧", type: "gamseong" },
+      { text: "캐보 찍어 트위터에 올리기 🤳✨", type: "jjurang" },
+      { text: "최강 한화 응원가 듣기 🎧", type: "gamseong" },
     ],
   },
   {
@@ -46,10 +46,10 @@ const QUESTIONS = [
     ],
   },
   {
-    id: 7, q: "공연 끝! 오늘 하루를 마무리하는 방법은?", emoji: "🌙",
+    id: 7, q: "잠들기 전 인스타 알림이 왔다! 어떤 알림일까?", emoji: "🌙",
     options: [
-      { text: "후기 SNS에 올리고 동료 팬들과 소통하기 ✍️🗣️", type: "jjurang" },
-      { text: "혼자 조용히 여운 즐기며 OST 무한반복 🎶", type: "gamseong" },
+      { text: "동그라미의 바보 안경 셀카", type: "jjurang" },
+      { text: "천재 포스너의 마테 영상 🎶", type: "gamseong" },
     ],
   },
   {
@@ -71,33 +71,33 @@ const RESULTS = {
     colorLight: "#F4957F",
     bg: "#FFF5F3",
     border: "#FFD4CC",
-    desc: "지우가 울면 나도 울고, 지우가 웃으면 세상이 환해지는 menow = #지우가너무좋아 상태! 언제나 한결같은 마음으로 아낌없이 칭찬하고 쮸랑하는 편이에요. 그 뜨거운 마음, 지우한테도 분명히 닿고 있을 거예요 💌",
+    desc: "지우가 웃으면 세상이 환해지는 #menow = 지우진짜좋아 상태! 언제나 한결같은 마음으로 아낌없이 칭찬해요 🫳🫳🫳 동그라미 최고! 💌",
     traits: [
-      { icon: "😭", text: "지우가 곧 자신이기에 인물의 감정에 따라 요동쳐요" },
-      { icon: "📣", text: "커튼콜에서 이름 외치는 거 절대 못 참는 타입" },
-      { icon: "😻", text: "어떤 작품이라도 한결같이 사랑해줘요" },
+      { icon: "😭", text: "여러분 저 됐어요 ... 쮸랑단 됐어요 !!!" },
+      { icon: "📣", text: "세상에서 동그라미 가장 잘 쓰다듬는 사람 1위" },
+      { icon: "😻", text: "지우님 칭찬 무한 제공합니다" },
     ],
-    giftTitle: "히스토리보이즈 예매권 🎟️",
+    giftTitle: "안녕하세요~ 배우 정지우입니다. 🎟️",
     giftCode: "HISTORY-JIWOO-2025",
-    giftLink: "https://yeasa.com/redeem",
+    giftLink: "https://m.yes24.com/MyPage/Ticket",
   },
   gamseong: {
-    tag: "감성형",
-    subtitle: "대학로 감성러",
+    tag: "쮸랑형",
+    subtitle: "대학로 최수종",
     emoji: "🌿",
     color: "#4D8A68",
     colorLight: "#78B897",
     bg: "#F3FAF5",
     border: "#B8E0C8",
-    desc: "지우를 조용하지만 깊고 진하게 사랑하는 타입이에요. 무대 위 지우의 눈빛 하나, 숨결 하나까지 마음에 새기는 당신. 소리 내어 표현하지 않아도 그 사랑의 온도는 그 누구보다 뜨거워요 🌿",
+    desc: "복복복 열심히 동그라미를 굴려요!! (두쫀쮸 데굴데굴 🧆) 좋아하는 포인트가 확실하고 정확한 타입! 쮸얘 필리버스터 무한 제공합니다 💥",
     traits: [
-      { icon: "🥲", text: "지우가 노래 부르면 어느새 눈물이 차올라요" },
-      { icon: "🎧", text: "OST 무한반복은 기본 — 여운을 아끼는 타입" },
-      { icon: "💌", text: "표현은 조용해도 마음속엔 지우로 가득해요" },
+      { icon: "🚶‍♂️", text: "갈테야 갈테야 지우님 공연보러 갈테야" },
+      { icon: "🫥", text: "지우 힘내 지우 밥많이먹어 지우 화이팅!!!" },
+      { icon: "💌", text: "어떤 작품이라도 한결같이 아껴요" },
     ],
-    giftTitle: "히스토리보이즈 예매권 🎟️",
+    giftTitle: "안녕하세요~ 배우 정지우입니다 🎟️",
     giftCode: "HISTORY-JIWOO-2025",
-    giftLink: "https://yeasa.com/redeem",
+    giftLink: "https://m.yes24.com/MyPage/Ticket",
   },
 };
 
@@ -282,7 +282,7 @@ export default function App() {
               letterSpacing: "2px",
               marginBottom: "10px",
             }}>
-              for. 정지우를 사랑하는 당신에게
+              for. 오늘도 동그라미를 쓰다듬는 당신에게
             </p>
 
             <h1 style={{
@@ -303,7 +303,7 @@ export default function App() {
               lineHeight: 2.1,
               marginBottom: "28px",
             }}>
-              8개의 질문으로 알아보는<br />나의 유형 + 비밀 선물 코드 💌
+              8개의 질문으로 알아보는<br />나의 유형 💌
             </p>
 
             <button
