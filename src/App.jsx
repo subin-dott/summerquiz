@@ -13,7 +13,7 @@ const QUESTIONS = [
   {
     id: 2, q: "어떤 걸 타고 갈까?", emoji: "🚉",
     options: [
-      { text: '"열차가 곧 출발하겠구만 그래~" 기차를 탄다! 🚂', type: "jjurang" },
+      { text: '"열차가 곧 출발하겠구만 그래~" 서둘러 기차를 탄다! 🚂', type: "jjurang" },
       { text: '"나도 택시탈 자격 있어!" 용감하게 택시를 탄다! 🚕', type: "gamseong" },
     ],
   },
@@ -21,21 +21,21 @@ const QUESTIONS = [
     id: 3, q: "대학로 도착! 이제 어디로 갈까?", emoji: "🗺️",
     options: [
       { text: "카메라 챙겨서 링크아트센터 달려가기 📸🏃", type: "jjurang" },
-      { text: "Imbibe! 포쉬답게 음주하러 텐트가기 🥃", type: "gamseong" },
+      { text: "Imbibe! 포쉬답게 음주하러 텐트가기 🥃😎", type: "gamseong" },
     ],
   },
   {
     id: 4, q: "공연 전까지 뭘 할까?", emoji: "🎭",
     options: [
       { text: "캐보 찍어 트위터에 올리기 🤳✨", type: "jjurang" },
-      { text: "최강한화 응원가 듣기 ⚾️✨", type: "gamseong" },
+      { text: "최강한화 응원가 듣기 ⚾️🎶", type: "gamseong" },
     ],
   },
   {
     id: 5, q: "밸런스 게임을 해보자!", emoji: "🎤",
     options: [
-      { text: "최애 착장인데 분량 30분 💦", type: "gamseong" },
       { text: "밤티 착장이지만 120분 내내 무대에 존재 🧩", type: "jjurang" },
+      { text: "최애 착장인데 분량 30분 💦", type: "gamseong" },
     ],
   },
   {
@@ -49,7 +49,7 @@ const QUESTIONS = [
     id: 7, q: "공연이 끝나고 인스타 알림이 왔다! 어떤 알림일까?", emoji: "🔔",
     options: [
       { text: "동그라미의 바보 안경 셀카 🤓", type: "jjurang" },
-      { text: "천재 포스너의 마테 영상 🎶", type: "gamseong" },
+      { text: "천재 포스너의 마테 영상 🎧", type: "gamseong" },
     ],
   },
   {
@@ -293,7 +293,7 @@ export default function App() {
               lineHeight: 1.5,
               marginBottom: "14px",
             }}>
-              <span style={{ color: "#E8624A" }}>여름의</span>하루 ✨
+              <span style={{ color: "#E8624A" }}>여름의</span> 하루 ✨
             </h1>
 
             <p style={{
