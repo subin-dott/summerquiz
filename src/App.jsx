@@ -293,7 +293,7 @@ export default function App() {
               lineHeight: 1.5,
               marginBottom: "14px",
             }}>
-              <span style={{ color: "#E8624A" }}>여름의</span> 하루 ✨
+              <span style={{ color: "#E8624A" }}>여름</span>의 하루 ✨
             </h1>
 
             <p style={{
