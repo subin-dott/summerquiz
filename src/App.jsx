@@ -39,14 +39,14 @@ const QUESTIONS = [
     ],
   },
   {
-    id: 6, q: "커튼콜! 지우가 인사를 한다. 나는?", emoji: "🌹",
+    id: 6, q: "더 좋아하는 쮸스너의 대사는?", emoji: "🌹",
     options: [
-      { text: "박수치면서 이름 크게 외치기! 📣💕", type: "jjurang" },
-      { text: '마음속으로 "오늘도 수고했어" 조용히 전하기 💌', type: "gamseong" },
+      { text: "선생님도 선생님의 삶을 돌아보세요?", type: "jjurang" },
+      { text: "선생님, 저는 행복하진 않지만 불행하지도 않아요.", type: "gamseong" },
     ],
   },
   {
-    id: 7, q: "인스타 알림이 왔다! 어떤 알림일까?", emoji: "🔔",
+    id: 7, q: "공연이 끝나고 인스타 알림이 왔다! 어떤 알림일까?", emoji: "🔔",
     options: [
       { text: "동그라미의 바보 안경 셀카 🤓", type: "jjurang" },
       { text: "천재 포스너의 마테 영상 🎶", type: "gamseong" },
@@ -251,7 +251,7 @@ export default function App() {
             color: "#C49888",
             marginBottom: "14px",
           }}>
-            ✦ &nbsp; ♡ 여름의 하루 ♡ &nbsp; ✦
+            ✦ &nbsp; ♡ 나는 어떤 쮸랑단일까 ♡ &nbsp; ✦
           </div>
 
           <div style={{
@@ -293,8 +293,7 @@ export default function App() {
               lineHeight: 1.5,
               marginBottom: "14px",
             }}>
-              나는 어떤<br />
-              <span style={{ color: "#E8624A" }}>쮸랑단</span>일까? ✨
+              <span style={{ color: "#E8624A" }}>여름의</span>하루 ✨
             </h1>
 
             <p style={{
@@ -614,8 +613,8 @@ export default function App() {
                   </a>
 
                   <p style={{ fontSize: "12px", color: "#B09080", lineHeight: 1.9 }}>
-                    코드 누르고 복사해서 등록하시면 됩니다 !! <br />
-                    <span style={{ color: result.color, fontWeight: "700" }}>생일 미리 축하드려요😍</span>
+                    코드 누르고 복사해서 등록하시면 되어요 !! <br />
+                    <span style={{ color: result.color, fontWeight: "700" }}>생일 미리 축하드려요 횽님😍</span>
                   </p>
                 </div>
               )}
