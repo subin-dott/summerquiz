@@ -78,7 +78,7 @@ const RESULTS = {
       { icon: "🫥", text: "지우 힘내 지우 밥많이먹어 지우 화이팅!!!" },
     ],
     giftTitle: "연극 <히스토리 보이즈> 예매권 🎟️",
-    giftCode: "HISTORY-JIWOO-2025",
+    giftCode: "GIFT22B9AABZIUSC7AW8",
     giftLink: "https://m.yes24.com/MyPage/Ticket",
   },
   gamseong: {
@@ -96,7 +96,7 @@ const RESULTS = {
       { icon: "😻", text: "어떤 작품이든 한결같이 아껴요 ♡" },
     ],
     giftTitle: "연극 <히스토리 보이즈> 예매권 🎫",
-    giftCode: "HISTORY-JIWOO-2025",
+    giftCode: "GIFT22B9AABZIUSC7AW8",
     giftLink: "https://m.yes24.com/MyPage/Ticket",
   },
 };
@@ -613,7 +613,7 @@ export default function App() {
                   </a>
 
                   <p style={{ fontSize: "12px", color: "#B09080", lineHeight: 1.9 }}>
-                    코드 두 개 나눠서 등록하시면 되어요 !! <br />
+                    저쪽 동그라미분께서 보내셨습니다..🫥 <br />
                     <span style={{ color: result.color, fontWeight: "700" }}>생일 미리 축하드려요 횽님😍</span>
                   </p>
                 </div>
